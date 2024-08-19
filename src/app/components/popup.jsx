@@ -30,9 +30,9 @@ return (
                 <div className="flex justify-center items-center flex-col  gap-[8px] sm:gap-[15px] w-4/5 lg:w-[56.25%] text-center">
                     <p className="text-pop-up-secondary text-[0.5rem] sm:text-[0.875rem] lg:text-base">Visit our website to see more information</p>
                     <img src="/bncc_launching.png" alt="" />
-                    <a href="https://launching.bncc.net/" 
-                    className="px-6 sm:px-12 py-3 rounded-pop-up-sm bg-pop-up-primary text-white font-semibold text-[0.5rem] sm:text-xl
-                                hover:bg-white hover:text-pop-up-primary hover:border-pop-up-primary border-[3px]">Go to Registration</a>
+                    <a href="https://launching.bncc.net/"
+                    className="px-6 sm:px-12 py-3 relative rounded-pop-up-sm bg-pop-up-primary text-white font-semibold text-[0.5rem] sm:text-xl
+                                hover:bg-white hover:text-pop-up-primary hover:border-pop-up-primary border-[3px]"> <span class='default-text'>Go to Registration Site</span> <span class='hover-text absolute inset-0 flex items-center justify-center'>launching.bncc.net</span></a>
                 </div>
 
                 </div>

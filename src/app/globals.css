@@ -22,6 +22,19 @@ body {
   
 }
 
+.default-text {
+  display: block;
+}
+.hover-text {
+  opacity: 0;
+}
+a:hover .default-text {
+  opacity: 0;
+}
+a:hover .hover-text {
+  opacity: 1;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
