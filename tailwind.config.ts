@@ -23,11 +23,9 @@ const config: Config = {
         'pop-up-primary': '#22539F',
         'pop-up-secondary' : '#676767'
       },
-
       fontFamily: {
-        'Montserrat': ['Montserrat', 'sans-serif']
+        'Montserrat': ['var(--font-montserrat)', 'sans-serif']
       },
-
 
     },
   },
